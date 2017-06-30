@@ -41,7 +41,7 @@ body{
 }
 
 .active{
-  background-color: #f7f7f7;
+  background-color: #f7f7f7 !important;
 }
 
 .player-name{
@@ -51,6 +51,7 @@ body{
   left: 50%;
   top:20%;
   transform: translateX(-50%);
+  text-transform: uppercase;
 }
 
 .player-score{
@@ -138,3 +139,6 @@ button:focus{
 
 button:hover { font-weight: 600; }
 button:hover i { margin-right: 20px; }
+
+.winner { background-color: #f7f7f7; }
+.winner .player-name { font-weight: 300; color: #EB4D4D; }
